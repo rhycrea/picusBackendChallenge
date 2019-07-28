@@ -1,8 +1,8 @@
 # Current Features
-  - server creates relative tables
+  - server creates database tables
   - multiple peers can register to server.
   - server accepts or rejects a peer.
-  - server logs registering request to database.
+  - server logs results of registering requests to database.
 
 # Picus Backend Challenge 
 
