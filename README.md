@@ -4,7 +4,7 @@
   - server accepts or rejects a peer.
   - server logs results of registering requests to database.
 
-postgres settings needs to be configured in server.go
+1. postgres settings needs to be configured in server.go
 
 const (
 	host     = "localhost"
@@ -13,3 +13,6 @@ const (
 	password = "****"
 	dbname   = "picusbc"
 )
+
+2. server.go [portno]
+3. peer.go [serverip] [serverport] 
