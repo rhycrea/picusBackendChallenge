@@ -7,13 +7,13 @@
 # Run
 1. postgres settings needs to be configured in server.go
 
-```const (
+``` const (
 	host     = "localhost"
 	port     = 5432
 	user     = "postgres"
 	password = "****"
 	dbname   = "picusbc"
-)```
+) ```
 
 2. go run server.go [portno]
 3. go run peer.go [serverip] [serverport] 
