@@ -4,6 +4,7 @@
   - server accepts or rejects a peer.
   - server logs results of registering requests to database.
 
+# Run
 1. postgres settings needs to be configured in server.go
 
 const (
